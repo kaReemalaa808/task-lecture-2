@@ -1,5 +1,14 @@
-import 'package:dart_application_1/dart_application_1.dart' as dart_application_1;
+void main() {
+  //the first method
+  int x = 7;
+  print(x);
 
-void main(List<String> arguments) {
-  print('Hello world: ${dart_application_1.calculate()}!');
+  //the second method
+  var y = 7;
+  print(y);
+
+  //
+  dynamic z;
+  z = 7;
+  print(z);
 }
